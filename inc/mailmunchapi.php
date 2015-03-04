@@ -28,7 +28,7 @@
 
     function getWidgetsHtml($site_id) {
       $this->requestType = 'get';
-      return $this->ping('/sites/'.$site_id.'/widgets/wordpress?plugin=mailchimp');
+      return $this->ping('/sites/'.$site_id.'/widgets/wordpress?plugin=mailchimp-popup');
     }
 
     function deleteWidget($site_id, $widget_id) {
